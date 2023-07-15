@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Mazzard";
+    src: url(./fonts\copy/MazzardL-SemiBold("truetype"));
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Mazzard";
+    src: url(./fonts\copy/MazzardL-SemiBold("truetype"));
+    font-weight: 600;
+}
+
+:root {
+    --hero-and-footer-background-color: #fae2da;
+    --text-color: #1d263a;
+    --white-background-color: #fff;
+    --dark-blue: #213053;
+    --orange-color: #ff794d;
+}
+
+/* header */
+
+.container {
+    max-width: 1600px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 40px;
+    background-color: var(--white-background-color);
+}
+
+.navigation {
+    width: 1296px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.sign_in {
+    margin-left: 252px;
+}
+
+.logo {
+    margin-right: 354px;
+}
