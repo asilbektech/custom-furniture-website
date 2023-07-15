@@ -60,3 +60,102 @@ a {
 .logo {
     margin-right: 354px;
 }
+
+/* hero section left*/
+
+.hero_section {
+    height: 676px;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: var(--hero-and-footer-background-color);
+    display: flex;
+}
+
+.hero_section_left {
+    position: relative;
+}
+.hero_circle {
+    height: 313px;
+    width: 313px;
+    top: 146px;
+    left: 249px;
+    bottom: 217px;
+    position: absolute;
+}
+
+.hero_chair {
+    width: 434px;
+    height: 525px;
+    position: absolute;
+    top: 75px;
+    left: 91px;
+    bottom: 76px;
+    right: 953px;
+}
+
+.hero_section .hero_section_right {
+    display: inline-block;
+}
+
+.hero_right_side {
+    top: 129px;
+    right: 177px;
+    left: 642px;
+    width: 660px;
+    position: absolute;
+    display: inline-block;
+}
+
+.heading_6 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: var(--orange-color);
+    margin-left: 80px;
+    margin-bottom: 34px;
+    margin-top: 129px;
+}
+
+.hero_text1 {
+    font-family: "Mazard";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px; /*110% */
+    letter-spacing: -1px;
+    color: var(--text-color);
+    margin-left: 80px;
+    margin-top: 34px;
+    margin-bottom: 27px;
+}
+
+.hero_text2 {
+    /* font-family: "Mazzard"; */
+    font-size: 15px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    color: var(--text-color);
+    margin-top: 58px;
+    margin-left: 80px;
+    margin-bottom: 58px;
+    width: 495px;
+    letter-spacing: 1px;
+}
+
+.small_pic {
+    margin-right: 25px;
+    margin-left: 80px;
+}
+
+.hero_text3 {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 186.667% */
+    width: 495px;
+    color: var(--text-color);
+    display: inline-block;
+    letter-spacing: 4px;
+}
