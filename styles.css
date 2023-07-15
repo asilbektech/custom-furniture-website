@@ -6,77 +6,57 @@
 
 @font-face {
     font-family: "Mazzard";
-    src: url(./fonts/MazzardL-Regular.otfformat(truetype));
+    src: url(./fonts\copy/MazzardL-SemiBold("truetype"));
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Mazzard";
-    src: url(./fonts/MazzardL-SemiBold.otfformat(truetype));
+    src: url(./fonts\copy/MazzardL-SemiBold("truetype"));
     font-weight: 600;
 }
 
 :root {
+    --hero-and-footer-background-color: #fae2da;
     --text-color: #1d263a;
     --white-background-color: #fff;
     --dark-blue: #213053;
-}
-
-body {
-    max-width: 1600px;
-    font-family: "Mazzard", sans-serif;
+    --orange-color: #ff794d;
 }
 
 /* header */
 
-ul {
-    list-style-type: none;
+.container {
+    max-width: 1600px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 40px;
+    background-color: var(--white-background-color);
+}
+
+.navigation {
+    width: 1296px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin-right: 50px;
 }
 
 a {
     text-decoration: none;
-}
-
-#header {
-    height: 110px;
-}
-
-.logo {
-    height: 28px;
-}
-
-nav {
-    text-align: center;
-    width: 1296px;
-    margin: 0 auto;
-    padding: 40px 152px;
-}
-
-nav a {
-    color: #1d263a;
-    font-size: 17px;
+    font-style: normal;
+    color: var(--text-color);
     font-weight: 600;
-    width: 10%;
-    line-height: 30px;
-    vertical-align: top;
-}
-
-.navigation_links li {
-    display: inline-block;
-}
-
-.navigation_links {
-    width: 81%;
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
-    align-items: center;
-}
-
-.navigation_links li:not(:last-child) {
-    margin-right: 50px;
 }
 
 .sign_in {
-    margin-left: 200px;
+    margin-left: 252px;
+}
+
+.logo {
+    margin-right: 354px;
 }
