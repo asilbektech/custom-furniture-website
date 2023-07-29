@@ -34,7 +34,7 @@ body {
     max-width: 1600px;
     padding-right: 60px;
     padding-left: 60px;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     background-color: var(--white-background-color);
 }
 
@@ -718,18 +718,6 @@ footer .container {
     background-color: var(--light-orange-color);
     border-radius: 30px;
     padding: 132px 200px 137px 91px;
-}
-
-.footer-logo {
-    width: auto;
-    height: 100%;
-    display: inline-block;
-    margin-right: 80px;
-    /* margin-bottom: 70px; */
-}
-
-.footer-logo {
-    color: var(--text-color);
 }
 
 .contact {
